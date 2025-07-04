@@ -1,11 +1,11 @@
 [build]
-  command = "./build.sh"
+  command = "npm install && npm run build"
   publish = "build"
-  ignore = "requirements.txt,blockchain_miner.py,saved_transactions.csv"
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_FLAGS = "--legacy-peer-deps"
+  PYTHON_VERSION = ""
 
 [[redirects]]
   from = "/*"
