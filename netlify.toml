@@ -1,6 +1,7 @@
 [build]
   command = "./build-command.sh"
   publish = "build"
+  ignore = "requirements.txt.backup,blockchain_miner.py.backup"
 
 [build.environment]
   NODE_VERSION = "18"
