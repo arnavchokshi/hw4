@@ -2,7 +2,6 @@
   "name": "blockchain-analysis-react-app",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "engines": {
     "node": "18.x",
     "npm": ">=8.0.0"
