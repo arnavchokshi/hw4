@@ -25,11 +25,4 @@ yarn-error.log*
 .idea/
 
 # OS
-Thumbs.db
-
-# Python files (not needed for React app)
-requirements.txt
-blockchain_miner.py
-saved_transactions.csv
-blockchain_graph.png
-eth_price_chart.png 
+Thumbs.db 

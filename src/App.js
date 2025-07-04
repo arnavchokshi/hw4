@@ -121,9 +121,9 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('Transactions');
   const [selectedMethodologyStep, setSelectedMethodologyStep] = useState(1);
 
-  // Placeholder for image URLs.
-  const blockchainGraphUrl = 'https://placehold.co/800x450/e2e8f0/334155?text=My+Blockchain+Network+Graph';
-  const ethPriceChartUrl = 'https://placehold.co/800x450/e2e8f0/334155?text=My+ETH-USD+Price+Chart';
+  // Image URLs for the blockchain analysis visualizations.
+  const blockchainGraphUrl = '/blockchain_graph.png';
+  const ethPriceChartUrl = '/eth_price_chart.png';
 
   const analyticsTabs = [
       { name: 'Transactions' },
