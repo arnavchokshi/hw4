@@ -1,11 +1,13 @@
 [build]
-  command = "npm install && npm run build"
+  command = "./build-command.sh"
   publish = "build"
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_FLAGS = "--legacy-peer-deps"
   PYTHON_VERSION = ""
+  PYTHON_RUNTIME = ""
+  RUNTIME = "nodejs"
 
 [[redirects]]
   from = "/*"
